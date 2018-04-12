@@ -49,11 +49,11 @@ public class Stos{
 
    public static void main(String [] arg)
    {
-       Stos newStack = new Stos();
-       newStack.dodaj("1");
-       newStack.dodaj("2");
-       newStack.dodaj("3");
+       Stos stos = new Stos();
+       stos.dodaj("1");
+       stos.dodaj("2");
+       stos.dodaj("3");
 
-       System.out.println(newStack.usun());
+       System.out.println(stos.usun());
    }
 }
