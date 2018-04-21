@@ -15,7 +15,7 @@ public class Test {
         int ostatni_wyjscie;
  	   int licznik=0;
  	   
-	    
+	    //test
       if(sprawdzenie(args)) {
     	  for(int i=0;i<args.length;i++) {
     		  twoDimentional[i]=args[i].split( "(?<=op)|(?=op)".replace("op", "[-+*/()^=]"));
